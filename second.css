@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color:lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 13px;
+}
+img {
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 20px;
+    -webkit-border-radius: 50%;
+   
+}
+
+main {
+    width: 1200px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 30px;
+    margin-bottom: 100px;
+
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+
+}
+.para1 {
+    grid-area: 1 / 1 / 2 / 3;
+    background-color: rgb(240, 101, 163);
+    border-radius: 0.5rem;
+    padding: 20px;
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 18%;
+   
+}
+
+.person h3 {
+    color: white;
+}
+
+.person p {
+    color: rgb(70, 68, 68);
+ 
+}
+
+.first1 {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+}
+
+.first2 {
+    color: white;
+    opacity: 70%;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+
+
+.para2 {
+    grid-area: 1 / 3 / 2 / 4;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(95, 95, 145);
+}
+
+.person2 h3 {
+    color: white;
+}
+
+.person2 p {
+    color: rgb(46, 45, 45);
+    opacity: 80%;
+}
+
+.first3 {
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.first4 {
+    color: white;
+    opacity: 70%;
+    line-height: 20px;
+
+}
+
+
+.para5{
+    grid-area: 1 / 4 / 3 / 5;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(10, 128, 139);
+
+}
+
+.person5 h3 {
+    color: white;
+}
+
+.person5 p {
+    color: rgb(46, 45, 45);
+    opacity: 80%;
+}
+
+.first9 {
+    color: rgb(22, 22, 22);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.first9 {
+    color: rgb(43, 39, 39);
+    opacity: 70%;
+    line-height: 20px;
+
+}
+
+
+.para3 {
+    grid-area: 2 / 1 / 3 / 2;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(10, 128, 139);
+}
+
+.person3 h3 {
+    color: black;
+}
+
+.person3 p {
+    color: rgb(46, 45, 45);
+    opacity: 80%;
+}
+
+.p5 {
+    color: black;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.p6 {
+    color: black;
+    opacity: 70%;
+    line-height: 20px;
+
+}
+
+
+.para4 {
+    grid-area: 2 / 2 / 3 / 4;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(66, 63, 63);
+
+}
+
+.person4 h3 {
+    color: white;
+}
+
+.person4 p {
+    color: white;
+    opacity: 80%;
+}
+
+.first7 {
+    color: rgb(17, 191, 225);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+}
+
+.first8 {
+    color: white;
+    opacity: 70%;
+    line-height: 20px;
+
+}
+
+
+
+
+
